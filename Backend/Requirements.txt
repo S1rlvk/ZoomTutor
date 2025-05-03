@@ -4,4 +4,8 @@ sqlalchemy>=2.0
 psycopg[binary]
 pgvector
 openai
-python-dotenv      # optional, handy for local runs
+python-dotenv
+pdfplumber
+tiktoken
+llama-index-core==0.11.10
+llama-index-llms-openai
